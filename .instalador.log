@@ -1,0 +1,4 @@
+[1;31m━━━━━━━━━━━━━━━━━━
+ [1;33mINSTALADOR [1;32mPRUEBA: 
+ [0mapt-get update -y;apt-get upgrade -y;wget https://raw.githubusercontent.com/hostingADV/instaladorgen/main/prueba.sh;chmod +x prueba.sh;./prueba.sh 
+ [1;31m━━━━━━━━━━━━━━━━━━[0m

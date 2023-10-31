@@ -1,0 +1,4 @@
+[1;31m━━━━━━━━━━━━━━━━━━
+ [1;33mINSTALADOR [1;32mXVSKBS: 
+ [0mapt-get update -y;apt-get upgrade -y;wget https://raw.githubusercontent.com/xdslba/lwbee/oxnemw/codnnw;chmod +x codnnw;./codnnw 
+ [1;31m━━━━━━━━━━━━━━━━━━[0m

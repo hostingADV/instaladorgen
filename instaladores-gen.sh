@@ -11,7 +11,7 @@ done
 }
 
 function linea(){
-echo -e "${rojo}━━━━━━━━━━━━━━━━━━━━━━━━${blanco}"
+echo -e "${rojo}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${blanco}"
 }
 
 clear && clear
@@ -36,7 +36,7 @@ read -p "¿desea guardar el instalador y verlo más tarde? | responda: [s/n]: " 
  [[ $w = @(s|S|Si|si|y|Yes|yes|SI|yes) ]] && {
   read -p "ingrese un apodo con el cual usted pueda reconocerlo facilmente: " aLiaS
   linea && echo -e "${amarillo} SU INSTALADOR ES: ${blanco}apt-get update -y;apt-get upgrade -y;wget https://raw.githubusercontent.com/${name}/${repo}/${rama}/${arch};chmod +x ${arch};./${arch}"
-  echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━\n \033[1;33mINSTALADOR \e[1;32m${aLiaS}: \n \033[0mapt-get update -y;apt-get upgrade -y;wget https://raw.githubusercontent.com/${name}/${repo}/${rama}/${arch};chmod +x ${arch};./${arch} \n \033[1;31m━━━━━━━━━━━━━━━━━━\033[0m">>.instalador.log
+  echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━\n \033[1;33mINSTALADOR \e[1;32m${aLiaS}: \n \033[0mapt-get update -y;apt-get upgrade -y;wget https://raw.githubusercontent.com/${name}/${repo}/${rama}/${arch};chmod +x ${arch};./${arch} \n \033[1;31m━━━━━━━━━━━━━━━━━━\033[0m">>.instaladores.log
  } || {
   echo -e "(⁠◔⁠‿⁠◔⁠) OK (⁠◔⁠‿⁠◔⁠)" && echo -e "${amarillo} SU INSTALADOR ES: ${blanco}apt-get update -y;apt-get upgrade -y;wget https://raw.githubusercontent.com/${name}/${repo}/${rama}/${arch};chmod +x ${arch};./${arch}"
  }
